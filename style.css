@@ -6,3 +6,26 @@
         display: block;
     }
 }
+
+/* section I */
+
+main>section {
+    padding: 40px 0;
+}
+.display {
+    display: block;
+}
+.p-relative {
+    position: relative;
+}
+.img-google {
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.my-btn {
+    border-color: blue;
+    display: block;
+    
+}
