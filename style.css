@@ -12,8 +12,15 @@
 main>section {
     padding: 40px 0;
 }
-.display {
-    display: block;
+
+.sec-hero {
+    background: url(img/bg-banner-home.jpg) bottom left;
+}
+.my-panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px; 
 }
 .p-relative {
     position: relative;
@@ -21,11 +28,18 @@ main>section {
 .img-google {
     width: 20px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 8px;
+    left: 8px;
 }
+.my-btn-blue {
+    border-color: #579aff;
+    background-color: #579aff;
+    color: white;
+}
+.bg-white {
+    background-color: white;
+} 
 .my-btn {
-    border-color: blue;
-    display: block;
-    
+    padding: 6px 12px;
+    text-align: center;
 }
