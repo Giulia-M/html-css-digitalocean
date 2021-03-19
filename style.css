@@ -63,14 +63,29 @@ main>section {
     display: inline-block;
 }
 .arrow {
-    max-width: 300px;
-    min-height: 195px;
+    min-height: 190px;
     vertical-align: middle;
 }
 .img-slide {
-    max-width: 300px;
-    min-height: 195px;
+    width: calc(100% - 20px);
+    min-height: 190px;
+ 
 }
 .w-50 {
     max-width:50%;
+}
+.select-slides {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #006aff;
+    display: inline-block;
+}
+.cer {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: blue;
+    display: inline-block;
+    background-color:;
 }
