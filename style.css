@@ -62,30 +62,31 @@ main>section {
 .d-inline-b {
     display: inline-block;
 }
-.arrow {
-    min-height: 190px;
+
+.img-slide { 
+    width: 100%;
+}
+.width-slide {
+    width: calc(100% - 80px - 10px);
     vertical-align: middle;
 }
-.img-slide {
-    width: calc(100% - 20px);
-    min-height: 190px;
- 
-}
-.w-50 {
+.w-50perc {
     max-width:50%;
 }
-.select-slides {
+.width-arrow {
+    width: 40px;
+    vertical-align: middle;
+}
+.select-slide {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #006aff;
     display: inline-block;
 }
-.cer {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border-color: blue;
-    display: inline-block;
-    background-color:;
+.cer-solid {
+    background-color: #006aff;
+    border: 1px solid #006aff;
+}
+.cer-empty {
+    border: 1px solid #006aff;
 }
