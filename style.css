@@ -85,3 +85,23 @@ main>section {
     font-size: 20px; 
 }
 
+/* sezione table */
+.bg-blue {
+    background-color: #0039b6;
+}
+.color-white {
+    color: white;
+}
+.text-item {
+    width: 50%;
+}
+.l-item {
+    width: 20%;
+}
+.border-item {
+    border-bottom: 1px solid white;
+}
+.ut-item {
+    text-align: right;
+    width: 25%;
+}
