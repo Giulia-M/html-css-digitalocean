@@ -58,4 +58,19 @@ main>section {
 .bg-grey {
     background-color:#f3f5f9;
 }
-/* sezione deploy and scale */
+/* sezione slide */
+.d-inline-b {
+    display: inline-block;
+}
+.arrow {
+    max-width: 300px;
+    min-height: 195px;
+    vertical-align: middle;
+}
+.img-slide {
+    max-width: 300px;
+    min-height: 195px;
+}
+.w-50 {
+    max-width:50%;
+}
