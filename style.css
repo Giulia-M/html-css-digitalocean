@@ -77,7 +77,11 @@ main>section {
     border: 1px solid #006aff;
 }
 .width-fissa {
-    max-width:80%;
-    margin: auto;
+    /* ho sottratto 20px per 2 volte perchè equivale alla width della arrow di sinistra e di destra e sottratto 8px perchè il div inline-block lascia un piccolo spazio nella pagina */
+    width: calc(100% - 20px - 20px - 8px);  
+}
+.w-arr {
+    width: 20px;
+    font-size: 20px; 
 }
 
