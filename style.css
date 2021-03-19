@@ -20,7 +20,7 @@ main>section {
     margin-bottom: 20px;
     background-color: #fff;
     border: 1px solid transparent;
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 .p-relative {
     position: relative;
@@ -38,7 +38,7 @@ main>section {
 }
 .bg-white {
     background-color: white;
-} 
+}
 .my-btn {
     padding: 6px 12px;
     text-align: center;
@@ -64,25 +64,27 @@ main>section {
 }
 
 .select-slide {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 8px;
 }
 .cer-solid {
-    background-color: #006aff;
-    border: 1px solid #006aff;
+    background-color: #2285fd;
+    border: 2px solid #2285fd;
+  
 }
 .cer-empty {
-    border: 1px solid #006aff;
+    border: 2px solid #2285fd;
 }
 .width-fissa {
     /* ho sottratto 20px per 2 volte perchè equivale alla width della arrow di sinistra e di destra e sottratto 8px perchè il div inline-block lascia un piccolo spazio nella pagina */
-    width: calc(100% - 20px - 20px - 8px);  
+    width: calc(100% - 20px - 20px - 8px);
 }
 .w-arr {
     width: 20px;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 /* sezione table */
@@ -104,4 +106,31 @@ main>section {
 .ut-item {
     text-align: right;
     width: 25%;
+}
+
+/* sezione carosel */
+
+
+/* sezione rockerbox */
+
+.marg-top {
+    margin-top: 100px;
+}
+.cambio_display {
+    display: inline-block;
+}
+.w-80perc {
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+}
+.img-rock {
+    /* per renderla responsive */
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.mt-30 {
+    margin-top: 30px;
 }
