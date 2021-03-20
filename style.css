@@ -135,3 +135,17 @@ main>section {
 .mt-30 {
     margin-top: 30px;
 }
+
+/* section get started now */
+.my_btn {
+    
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #2680ff;
+    background-color: #fff;
+    display: inline-block;
+    font-weight: bolder;
+    margin-top: 20px;
+}
