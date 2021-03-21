@@ -6,6 +6,11 @@
         display: block;
     }
 }
+.highlight {
+    color: #041d4e;
+
+}
+
 
 /* section I */
 
@@ -14,7 +19,8 @@ main>section {
 }
 
 .sec-hero {
-    background: url(img/bg-banner-home.jpg) bottom left;
+    background: url(img/bg-banner-home.jpg);
+    background-size: cover;
 }
 .my-panel {
     margin-bottom: 20px;
@@ -68,15 +74,15 @@ main>section {
     height: 15px;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 8px;
+    margin-right: 2px;
 }
 .cer-solid {
-    background-color: #2285fd;
-    border: 2px solid #2285fd;
+    background-color: #4792ff;
+    border: 2px solid #4792ff;
   
 }
 .cer-empty {
-    border: 2px solid #2285fd;
+    border: 2px solid #4792ff;
 }
 .width-fissa {
     /* ho sottratto 20px per 2 volte perchè equivale alla width della arrow di sinistra e di destra e sottratto 8px perchè il div inline-block lascia un piccolo spazio nella pagina */
@@ -88,6 +94,15 @@ main>section {
 .w-arr {
     width: 20px;
     font-size: 20px;
+}
+
+.strong {
+    font-weight: 600;
+    
+}
+/* sezionethe features your business needs */
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 /* sezione table */
@@ -145,7 +160,22 @@ table>tbody>tr>td >a>span {
 
 /* sezione carosel */
 /* sezione rockerbox */
+.link_test {
+    color: #4792ff;
+}
+.color-light {
+    color: #868fa6;
+}
+.my_blockquote {
+    border-left: none;
+}
 
+.sx_chevron {
+    color: #717c98;
+}
+.fs-7 {
+font-size: 7px;
+}
 .marg-top {
     margin-top: 100px;
 }
@@ -175,7 +205,6 @@ table>tbody>tr>td >a>span {
     font-size: 18px;
     line-height: 1.3333333;
     border-radius: 6px;
-    color: #2680ff;
     background-color: #fff;
     display: inline-block;
     font-weight: bolder;
