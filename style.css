@@ -13,6 +13,7 @@
     color: #5b6987;
 }
 /* navbar */
+
 div.container>div>ul>li>a.navbar-end {
     background-color: transparent;
     color: #006aff;
@@ -191,6 +192,13 @@ main>section {
     font-size: 20px;
 }
 
+/* NEL MOBILE */
+@media all and (max-width:768px) {
+    .width-fissa {
+        width:100%;
+    }
+    
+}
 
 /* sezionethe features your business needs */
 .mb-30 {
