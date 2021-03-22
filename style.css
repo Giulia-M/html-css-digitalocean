@@ -335,7 +335,16 @@ ul.color-grey >li >a {
 
 /* chat help */
 
-
+.triangolo {
+    position: absolute;
+    top: 22px;
+    right: -7px;
+    font-size: 23px;
+    
+}
+.wrap-message {
+    position: relative;
+}
 
 
 .chat-help-fixed {
@@ -346,6 +355,7 @@ ul.color-grey >li >a {
 }
 .padd-5 {
     padding: 5px;
+    border-radius: 5px;
 }
 .img-shark-wrapper {
     width: 60px;
