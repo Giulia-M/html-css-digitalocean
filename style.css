@@ -12,7 +12,36 @@
 .c-grey-paragr {
     color: #5b6987;
 }
+/* navbar */
+div.container>div>ul>li>a.navbar-end {
+    background-color: transparent;
+    color: #006aff;
+}
+.css-outlined {
+    padding: 7px 10px;
+    border:1px solid #006aff;
+    border-radius: 5px;
+}     
+.navbar-default .navbar-nav>li>a {
+    color: #041d4e;
+}
 
+.ml-50 {
+    margin-left: 50px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#267fff;
+}
+.navbar-default .navbar-toggle {
+    border-color:white;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
 /* section I */
 
 main>section {
