@@ -8,9 +8,10 @@
 }
 .highlight {
     color: #041d4e;
-
 }
-
+.c-grey-paragr {
+    color: #5b6987;
+}
 
 /* section I */
 
@@ -64,6 +65,30 @@ main>section {
 .bg-grey {
     background-color:#f3f5f9;
 }
+
+/* sezione deploy  */
+.btn-css-p {
+
+    color: #5b6987;
+    border-left: 1px solid #5b6987;
+    border-top: none;
+    border-bottom: none;
+    border-right: none; 
+    padding: 6px 12px;
+    display: block;
+    cursor: pointer;
+    border-radius: 0px;
+    background-color: #fff;
+    text-align: left;
+
+}
+.btn-css-p:hover {
+    border-left:1px solid #579aff;
+}
+
+
+
+
 /* sezione slide */
 .v-align {
     vertical-align: middle;
@@ -96,10 +121,7 @@ main>section {
     font-size: 20px;
 }
 
-.strong {
-    font-weight: 600;
-    
-}
+
 /* sezionethe features your business needs */
 .mb-30 {
     margin-bottom: 30px;
