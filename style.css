@@ -11,14 +11,13 @@
     .coprire-navbar {
         display: none;
     }
-   
 }
 @media all and (max-width: 768px){
     .coprire-navbar {
         display: none;
-    }
-   
+    }  
 }
+
 .highlight {
     color: #041d4e;
 }
