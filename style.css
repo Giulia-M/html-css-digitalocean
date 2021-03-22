@@ -2,11 +2,18 @@
 .wbrand {
     max-width: 100px;
 }
-@media all and (min-width: 768px) and (max-width:991px) {
+@media all and (min-width: 768px) and (max-width:992px) {
     .navbar-toggle {
         display: block;
     }
 }
+@media all and (min-width: 768px) and (max-width:992px) {
+    .coprire-navbar {
+        display: none;
+    }
+   
+}
+
 .highlight {
     color: #041d4e;
 }
