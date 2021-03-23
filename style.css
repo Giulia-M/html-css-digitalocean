@@ -2,11 +2,13 @@
 .wbrand {
     max-width: 100px;
 }
-@media all and (min-width: 768px) and (max-width:992px) {
+@media (min-width: 768px) and (max-width:992px) {
     .navbar-toggle {
         display: block;
     }
 }
+
+
 @media all and (min-width: 767px) and (max-width:992px) {
     .coprire-navbar {
         display: none;
